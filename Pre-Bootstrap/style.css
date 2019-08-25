@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+#box1 {
+  background-color: lightgray;
+}
+
+[id="box1"] { /* 100 */
+  background-color: green;
+}
+
+/*
+  id: 100
+  className: 10
+  anyOtherAttribute: 10
+  tagName: 1
+*/
+
+/* #box2 { 
+  background-color: aliceblue;
+} */
+
+div.second-box { /* 11 */
+  background-color: gray;
+}
+
+.not-first-box { /* 10 */
+  background-color: blue;
+}
+
+div { /* 1 */
+  width: 300px;
+  /* height: 300px; */
+  background-color: red;
+  border: 1px solid black;
+}
+
+[name="last-div"] {
+  background-color: beige; 
+}
+
+.last-div-of-document {
+  background-color: black;
+}
